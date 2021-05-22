@@ -6,6 +6,8 @@ main{
 .navbar{
     padding-left: 5px;
 }
+
+/* İndex Sayfası*/
 .main{
     background-color: lightblue;
 }
@@ -14,13 +16,16 @@ main{
 }
 
 .about-title{
-    color: red;
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(156, 157, 201);
     text-align: center;
     background-color:blueviolet ;
     padding: 5px;
 }
 
 .about-me{
+    font-size: 20px;
+    font-family: 'Chela One', cursive;
     text-align: center;
     padding: 3px;
 }
@@ -35,6 +40,13 @@ main{
     min-height: 15vw;
     object-fit: cover;
 }
+
+.card-text{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Sehrimiz Sayfası */
+
 .photo-slider{
     height:auto;
     width:100%;
@@ -55,8 +67,18 @@ main{
     text-decoration: thistle;
 }
 
+.about-city{
+    font-family: 'KoHo', sans-serif;
+}
+
+/* Mirasımız Sayfası*/
+
 .miras-main{
     border-right: 1px solid bisque;
+}
+
+.info-title{
+    font-family: 'Oswald', sans-serif;
 }
 
 div.polaroid {
@@ -85,11 +107,13 @@ div.polaroid {
 }
 
 .img-info-text{
+    font-family: 'Roboto', sans-serif;
     padding: 5px;
     margin-bottom: 5px;
     border-bottom: 1px solid bisque;
 }
 
+/* Login Sayfasi*/
 input[type=text], input[type=password]{
     width: 100%;
     padding: 12px 20px;
@@ -113,6 +137,7 @@ input[type=text], input[type=password]{
     width: 100%;
 }
 
+/* İletisim Sayfası*/
 .contact-form {
     background: #fff;
     margin-top: 10%;
@@ -137,30 +162,12 @@ input[type=text], input[type=password]{
 }
 
 .contact-form h3 {
+    font-family: 'Goblin One', cursive;
     margin-bottom: 8%;
     margin-top: 10px;
     text-align: center;
     color: #0062cc;
 }
 
-.contact-form .btnContact {
-    width: 50%;
-    border: none;
-    border-radius: 1rem;
-    padding: 1.5%;
-    background: #dc3545;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-}
 
-.btnContactSubmit {
-    width: 50%;
-    border-radius: 1rem;
-    padding: 1.5%;
-    color: #fff;
-    background-color: #0062cc;
-    border: none;
-    cursor: pointer;
-}
 
