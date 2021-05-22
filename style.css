@@ -89,3 +89,26 @@ div.polaroid {
     margin-bottom: 5px;
     border-bottom: 1px solid bisque;
 }
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-container{
+    padding: 20px;
+}
+
+.button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
