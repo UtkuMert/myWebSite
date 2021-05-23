@@ -28,7 +28,7 @@ const film2 = {
 $.ajax(film2).done(function (response) {
     document.getElementById('title2').innerHTML=response.title;
     document.getElementById('info2').innerHTML=response.plot;
-    document.getElementById('box').src=response.poster;
+    document.getElementById('box2').src=response.poster;
     console.log(response);
 });
 
