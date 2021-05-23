@@ -1,5 +1,5 @@
-var kullaniciAdi = "utku@gmail.com";
-var password = "utku123"
+var kullaniciAdi = "g171210051@gmail.com";
+var password = "g171210051"
 
 function Validation(){
 

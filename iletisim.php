@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,7 +47,7 @@
             $name = $_POST['ad'];
             $telefon = $_POST['telefon'];
             $email = $_POST['eposta'];
-            $message = $_POST['message'];
+            $message = $_POST['adres'];
             echo "Hoşgeldin ". $name .'<br>'. "Telefon Numaranız : " . $telefon .'<br>'."Mesajınız : ". $message.'<br>'. " tarafımıza iletildi.";
         ?>
     </h3></div> 
