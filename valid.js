@@ -1,4 +1,4 @@
-var kullaniciAdi = "g171210051@gmail.com";
+var kullaniciAdi = "g171210051@ogr.sakarya.edu.tr";
 var password = "g171210051"
 
 function Validation(){
