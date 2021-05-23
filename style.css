@@ -25,7 +25,7 @@ main{
 
 .about-me{
     font-size: 20px;
-    font-family: 'Chela One', cursive;
+    font-family: 'PT Sans', sans-serif;
     text-align: center;
     padding: 3px;
 }
@@ -170,6 +170,8 @@ input[type=text], input[type=password]{
 }
 
 
+/* İlgi Alanim page*/
+
 .film-box{
     border: 1px solid black;
     width: 75%;
@@ -182,6 +184,11 @@ input[type=text], input[type=password]{
 .img-box{
     width: 25%;
     height: 25%;
+}
+
+.film-info{
+    padding-top: 2px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
