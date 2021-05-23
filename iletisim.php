@@ -47,11 +47,16 @@
     </nav>
     <div class='aciklama'><h3>
     <?php 
-            Sayın ".$_POST['ad']." ".$_POST['soyad'].",<br> </h3><h2>&quot".$_POST['adres']."&quot</h2><h3> içerikli mesajınız alınmıştır. En kısa sürede ".$_POST['telefon']." numaralı telefonunuz veya ".$_POST['eposta']." adresli E-Mailiniz aracılığıyla sizinle iletişime geçeceğiz. İlginiz için teşekkür ederiz.
+            $name = $_POST['ad'];
+            $telefon = $_POST['telefon'];
+            $email = $_POST['eposta'];
+            $message = $_POST['message'];
+            echo "Hoşgeldin ". $name .'<br>'. "Telefon Numaranız : " . $telefon .'<br>'."Mesajınız : ". $message.'<br>'. " tarafımıza iletildi.";
         ?>
     </h3></div> 
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
@@ -60,5 +65,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
     integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
     crossorigin="anonymous"></script>
-
+</body>
 </html>

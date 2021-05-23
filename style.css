@@ -170,4 +170,18 @@ input[type=text], input[type=password]{
 }
 
 
+.film-box{
+    border: 1px solid black;
+    width: 75%;
+}
+
+.film-title{
+    text-align: center;
+}
+
+.img-box{
+    width: 25%;
+    height: 25%;
+}
+
 
